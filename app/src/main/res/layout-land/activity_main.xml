@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#737373"
+    tools:context="com.cuzzo.latricecalco.MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTitolo"
+        android:layout_width="315dp"
+        android:layout_height="131dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/aldrich"
+        android:gravity="center"
+        android:text="La Trice Calco"
+        android:textColor="#ff6600"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="10dp" />
+
+    <TextView
+        android:id="@+id/textViewCalcolo"
+        android:layout_width="368dp"
+        android:layout_height="171dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/aldrich"
+        android:gravity="center|right"
+        android:text=""
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <Button
+        android:id="@+id/btnDecimal"
+        android:layout_width="105dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn2"
+        android:fontFamily="@font/aldrich"
+        android:text=","
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteY="583dp" />
+
+    <Button
+        android:id="@+id/btn0"
+        android:layout_width="105dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/btnDecimal"
+        android:fontFamily="@font/aldrich"
+        android:text="0"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="583dp" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="105dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/btnDecimal"
+        android:layout_alignParentStart="true"
+        android:fontFamily="@font/aldrich"
+        android:text="1"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteY="481dp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="105dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/btnUgual"
+        android:layout_toEndOf="@+id/btn7"
+        android:text="2"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/aldrich"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="481dp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="105dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/btnUgual"
+        android:layout_toEndOf="@+id/btn2"
+        android:fontFamily="@font/aldrich"
+        android:text="3"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="481dp" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="105dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/btn1"
+        android:layout_alignParentStart="true"
+        android:fontFamily="@font/aldrich"
+        android:text="4"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="105dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/btn2"
+        android:layout_toEndOf="@+id/btn4"
+        android:fontFamily="@font/aldrich"
+        android:text="5"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="105dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/btn3"
+        android:layout_toEndOf="@+id/btn5"
+        android:fontFamily="@font/aldrich"
+        android:text="6"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="105dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewTitolo"
+        android:background="#000000"
+        android:fontFamily="@font/aldrich"
+        android:text="7"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="105dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/textViewTitolo"
+        android:layout_toEndOf="@+id/btn7"
+        android:background="#000000"
+        android:fontFamily="@font/aldrich"
+        android:text="8"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="105dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/textViewTitolo"
+        android:layout_toEndOf="@+id/btn8"
+        android:background="#000000"
+        android:fontFamily="@font/aldrich"
+        android:text="9"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <Button
+        android:id="@+id/btnUgual"
+        android:layout_width="105dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btn3"
+        android:fontFamily="@font/aldrich"
+        android:text="="
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="583dp" />
+
+    <Button
+        android:id="@+id/btnAddition"
+        android:layout_width="208dp"
+        android:layout_height="85dp"
+        android:layout_below="@+id/btnCE"
+        android:layout_toEndOf="@+id/btn3"
+        android:fontFamily="@font/aldrich"
+        android:text="+"
+        android:background="#ff6600"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="601dp" />
+
+    <Button
+        android:id="@+id/btnSubtraction"
+        android:layout_width="208dp"
+        android:layout_height="85dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/btn3"
+        android:fontFamily="@font/aldrich"
+        android:text="-"
+        android:background="#ff6600"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="521dp" />
+
+    <Button
+        android:id="@+id/btnMultiplication"
+        android:layout_width="208dp"
+        android:layout_height="85dp"
+        android:layout_alignEnd="@+id/textViewCalcolo"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/aldrich"
+        android:text="X"
+        android:background="#ff6600"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="441dp" />
+
+    <Button
+        android:id="@+id/btnDivision"
+        android:layout_width="208dp"
+        android:layout_height="85dp"
+        android:layout_above="@+id/btnSubtraction"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="@font/aldrich"
+        android:text="÷"
+        android:background="#ff6600"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <Button
+        android:id="@+id/btnCE"
+        android:layout_width="395dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/btnDivision"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="@font/aldrich"
+        android:text="CE"
+        android:background="#ff6600"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+</RelativeLayout>
